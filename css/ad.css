@@ -1,0 +1,94 @@
+@font-face {
+	src:url(../fonts/Newsreader16pt-Bold.ttf) format('truetype');
+	font-family: 'Newsreader16pt Bold';
+} 
+
+@font-face {
+	src:url(../fonts/Newsreader16pt-Light.ttf) format('truetype');
+	font-family: 'Newsreader16pt Light';
+} 
+
+@font-face {
+	src:url(../fonts/Newsreader16pt-Medium.ttf) format('truetype');
+	font-family: 'Newsreader16pt Medium';
+} 
+
+
+.title {
+	font-family: 'Newsreader16pt Bold';
+	font-size: 2.0em;
+	color: darkred;
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	letter-spacing: 0.3px;
+	transform: translate(-50%);
+}
+
+.container {
+	width: 336px;
+	height: 280px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background: black;
+	transform: translate(-50%, -50%);
+}
+
+
+.container:hover {
+	color: black;
+	background: url("../images/0.jpg") no-repeat center center;
+	transition: 0.2s;
+	background-size: 100%;
+	position: center;
+}
+
+
+.text {
+	font-family: 'Newsreader16pt Medium';
+	font-size: 14px;
+	color: darkred;
+	line-height: 24px;
+	letter-spacing: 0.1px;
+	position: absolute;
+	left: 20px;
+	top: 200px;
+}
+
+.link {
+	font-family: 'Newsreader16pt Bold';
+	font-size: 10px;
+	text-align: center;
+	color: darkred;
+	letter-spacing: 0.1px;
+	margin: auto;
+	margin-top: 30px;
+	display: block;
+	border: solid 2px darkred;
+	border-radius: 7px;
+	width: 100px;
+	line-height: 10px;
+	padding: 10px;
+	text-decoration: none;
+	transition: 0.4s;
+	position: absolute;
+	left: 108px;
+	top: 200px;
+}
+
+
+.link:hover {
+	color: white;
+	background: darkred;
+	transition: 0.4s;
+}
+
+
+
+
+
+
+
+
+
